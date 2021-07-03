@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-2dot2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
+  },
+  "scripts": {
+    "build": "TAILWIND_MODE=watch postcss tailwind.css -o ./public/styles.css -w --verbose",
+    "prod": "NODE_ENV=production postcss tailwind.css -o ./public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
