@@ -17,6 +17,6 @@ Watches files as you make changes to your `index.html` within `public` folder
 
 Uses `cssnano` to minify the stylesheet for production
 
-**Note to Windows users:**
-Change the "build" script to
+**Note to Windows users:**<br>
+Change the "build" script to<br>
 "build": "set TAILWIND_MODE=watch&postcss tailwind.css -o ./public/styles.css -w --verbose"
